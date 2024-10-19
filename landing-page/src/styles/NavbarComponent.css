@@ -1,0 +1,18 @@
+.custom-navbar {
+    background-color: black !important;
+  }
+  
+  .custom-navbar .nav-link {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: white !important;
+  }
+  .custom-navbar .nav-button {
+    margin: 0 10px;
+}
+

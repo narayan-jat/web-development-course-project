@@ -1,0 +1,45 @@
+.contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  padding: 25px;
+  width: 50%;
+}
+
+.contact-image {
+  padding: 25px;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+}
+#contact-button{
+  width: 50%;
+  background-color: green;
+  transition: background-color 1s ease;
+}
+#contact-button:hover {
+  background-color: rgb(141, 247, 141);
+}
+
+.contact-image {
+  width: 400px;
+  height: 300px;
+}
+
+@media (max-width: 768px){
+  .contact-form {
+      width: 100%;
+      margin: 0 10%;
+  }
+  #contact-image {
+      display: none;
+  }
+  #contact-button{
+      width:100%;
+  }
+}

@@ -1,0 +1,123 @@
+/* Ideas.css */
+
+/* General styling for the ideas form */
+.ideas-form-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ideas-form-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .ideas-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ideas-input,
+  .ideas-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .ideas-input:focus,
+  .ideas-textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .ideas-textarea {
+    min-height: 120px;
+  }
+  
+  .ideas-submit-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ideas-submit-button:hover {
+    background-color: #357ab7;
+  }
+  
+  /* Styling for login message */
+  .ideas-login-message {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Ideas list section */
+  .ideas-list-container {
+    max-width: 800px;
+    margin: 3rem auto;
+  }
+  
+  .ideas-list-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .ideas-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ideas-list-item {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ideas-list-item-title {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .ideas-list-item-description {
+    margin-top: 0.5rem;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .ideas-remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .ideas-remove-button:hover {
+    background-color: #d32f2f;
+  }
+  

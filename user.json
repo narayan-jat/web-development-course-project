@@ -1,0 +1,17 @@
+{
+  "userId": 202210102012,
+  "bioData": {
+    "name": "Narayan",
+    "age": "21",
+    "dateOfBirth": "25/05/2003",
+    "address": "Lucknow, uttar Pradesh",
+    "mobile number": "9096564631"
+  },
+  "preferences": ["Clothings", "gadgets", "musical instruments"],
+  "purchasedItems": ["Mobile", "Charger", "Flute"],
+  "subscriptionStatus": "No subscription",
+  "paymentDetails": {
+    "Account Holder name": "Narayan Jat",
+    "Account number": 45461151322132
+  }
+}
